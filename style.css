@@ -1,0 +1,55 @@
+.container {
+	display: grid;
+	grid-template-columns: 220px 950px 440px;
+	grid-template-rows: auto;
+	grid-gap: 50px;
+	height: 900px;
+}
+.top {
+	grid-column: 1;
+	margin-top:20px;
+	margin-bottom:50px;
+	background-color:#011c31;
+	border-style: solid;
+	border-collapse: collapse;
+}
+.text1 {
+	grid-column: 2;
+	font-family: Arial;
+	color: #dddddd;
+}
+.text2 {
+	font-family: Vectora;
+	font-size: large;
+	color: #dddddd;
+}
+.media {
+	grid-column: 3;
+	width:440px;
+	height:300px;
+	margin-top:125px
+}
+.Shooters-container {
+	Margin-top: 50px;
+	width: 1840px;
+	height: 3900px;
+	float: center;
+}
+.tables {
+	border: 2px;
+	margin-left: 100px;
+	margin-top: 50px;
+	width: 89%;
+	height: 60px;
+	border-style: solid;
+	border-collapse: collapse;
+	text-align: center;
+}
+.tables tr:nth-child(even) {
+	background-color: #cccccc;
+	height: 128px;
+}
+.tables tr:nth-child(odd) {
+	background-color: #dddddd;
+	height: 128px;
+}
