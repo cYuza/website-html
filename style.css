@@ -1,14 +1,12 @@
 .container {
 	display: grid;
-	grid-template-columns: 220px 950px 440px;
+	grid-template-columns: 220px 950px 650px;
 	grid-template-rows: auto;
 	grid-gap: 50px;
-	height: 900px;
 }
 .top {
 	grid-column: 1;
 	margin-top:20px;
-	margin-bottom:50px;
 	background-color:#011c31;
 	border-style: solid;
 	border-collapse: collapse;
@@ -17,11 +15,13 @@
 	grid-column: 2;
 	font-family: Arial;
 	color: #dddddd;
+	text-align: justify;
 }
 .text2 {
 	font-family: Vectora;
 	font-size: large;
 	color: #dddddd;
+	text-align: justify;
 }
 .media {
 	grid-column: 3;
@@ -29,10 +29,10 @@
 	height:300px;
 	margin-top:125px
 }
-.Shooters-container {
+.weapon-container {
 	Margin-top: 50px;
-	width: 1840px;
-	height: 3900px;
+	margin-left: 20px;
+	margin-right: 20px;
 	float: center;
 }
 .tables {
@@ -47,9 +47,39 @@
 }
 .tables tr:nth-child(even) {
 	background-color: #cccccc;
-	height: 128px;
+	height: 100px;
 }
 .tables tr:nth-child(odd) {
 	background-color: #dddddd;
-	height: 128px;
+	height: 100px;
+}
+.subweapons {
+	Margin-top: 50px;
+	width: 1840px;
+	height: 1900px;
+	float: center;
+}
+.picture img {
+	cursor: zoom-in;
+}
+.btt {
+	position: fixed;
+	bottom: 10px;
+	float: right;
+	right: 5%;
+	left: 95%;
+	max-width: 74px;
+	width: 100%;
+	height: 22px;
+	font-size: 16px;
+	background-color: #2B41CA;
+	padding: 1px;
+	border-radius: 4px;
+	padding-left: 2px;
+}
+.specialboxes {
+	font-family: Vectora;
+	font-size: larger;
+	color: #DDDDDD;
+	text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }

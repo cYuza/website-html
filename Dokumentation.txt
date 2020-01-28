@@ -1,0 +1,49 @@
+Seite 1:
+Referenz durch https://splatoonwiki.org/wiki/Weapon
+Als tab icon habe ich mein persönliches gewählt, da es, auch wenn es nicht zum Thema passte, es zu mir passte.
+Contents div verlinkt
+Farbe durch hintergrund v. Sendou.ink inspiriert
+->Schrift Farbe auf contents Farbe angepasst
+->body Farbe auf contents Farbe angepasst
+Problem: ul wurde in ol mitgezählt, sodass Objekt 2 (Sub weapons) als Objekt 12 gezählt wurde
+Lösung: <li> von Sub weapons nach der ul Splat bomb bis torpedo schließen, das selbe bei special weapons.
+text1 div definiert, mit Hinblick auf Planung rechts relativ viel Platz freigelassen und Texte geschrieben.
+Bilder von splatoon wiki übernommen, da sie für den exakt selben Zweck auch von deren Creator ausgesucht wurde und deshalb auch meines Erachtens nach gut passte. div-los in text1 durch float:left/right platziert.
+text2 geschrieben, in eigene div für formatierung und Trennung von
+in div media Video Wadsm, wie nach Plan, eingefügt und passendes Bild im Internet gesucht.
+iframe code vom youtube embed sharing übernommen.
+div Shooters (bei .css angleichung in weapon-container umbenannt) definiert und rumprobiert, was passt.
+Headertext als comic sans ms als Anforderung des Projekts.
+tabelle shooter-table (später tables) gebaut und nur sehr viel rumprobiert, bis alles den Vorstellungen entsprach.
+Problem: keine Ahnung wie man trennränder für jede Zelle einbaut.
+Lösung: Guide von w3schools border-style probiert, Trennränder vorhanden, aber gedoppelt und das sah doof aus, dann Beschreibungen von verschiedenen Befehlen durchgelesen und border-collapse: collapse gefunden; das übernommen.
+Rand verdickt (von 1px auf 2px) vom Augenmaß.
+Code von Tabelle 1 mit differenzierter Höhenangaben für jeweile div x-container übernommen.
+Nach Hinweis von Sendouc (twitter.com/sendouc) den CSS-grid guide von Mozilla nachgeschlagen und übernommen.
+Dabei ein .css file erstellt für div top, text1 und media und dementsprechend neu angeordnet (sodass aber die vorige Platzierung von Bildern entsprechend gleich blieb.
+vorige style="" Elemente des .html files in style.css übertragen und angepasst, sodass es besser passt.
+Ziele für Contents von <a href> nach schnellem nachschlagen, wie man einen neuen tab mit der Seite öffnet, als target="_blank" festgelegt.
+Nach Kritik von Jiko (twitter.com/Jikosplatoon) einen back-to-top Knopf eingeführt.
+Um ein fixed-position element einzuführen, durch float:right und Seitenabstands-definierung platziert.
+Farben rumprobiert, was passte, und durch <a href="originalseitenspeicherort"> einen Anker am Beginn des Dokuments gesetzt. padding-left nachträglich eingeführt, um den restabstand des padding: 1px einzubehalten, aber die Schrift später beginnen zu lassen.
+Nach der Entstehung von Seite 3, bei dem die Graphen schwer erkennbar waren, entschloss ich mich alle Grafiken&Bilder vergrößerbar zu gestalten und den Cursor entsprechend anzupassen (Was nach kurzer Recherche durch w3schools kein Problem war). Deshalb habe ich jeder Grafik eine eigene div verliehen durch a href="rohbild"
+
+Seite 2:
+tab-icon durch Googlesuche gefunden
+div class="top" -> siehe Seite 1.
+div class="text1" hatte sehr wenig Text und wenig mehr sinnvolles zu sagen, deshalb platzierte ich das Video in dieser div.
+Das Video schien aber nicht zu laufen und ich konnte den Fehler nicht finden (habe uA. mit dem Video auf Seite 1 abgeglichen) und ein bug, der statt dem Sorin-video das auf Seite 1 verlinkte abspielte, brang mich dazu zu glauben, dass dieser nicht meine Schuld sei.
+Auf diesen Rückschlag gestoßen entschied ich mich, es herunterzuladen und über einen direct-link zu probieren, weil auf iframe kein Verlass zu sein schien.
+es funktionierte, aber die Kontrolltasten fehlten, weshalb ich auf stackoverflow und w3schools nach einer Lösung suchte, und sie auf w3schools nach einiger Zeit fand.
+Danach fügte ich einen nützlichen Graphen als Bild ein und wusste nicht, welche Bilder ich bei div media nun einfügen solle. Nach kurzem Suchen fand ich zwei Bilder, eins, welches sehr groß war (aber ohne weiteres angepasst werden konnte) und eins, welches zu klein war. Seine Vergrößerung machte es leider Unscharf, was ich aber in Kauf nahm, in Anbetracht der Schwierigkeit, überhaupt passende Bilder zu finden.
+Für die Tabelle dieser Seite habe ich mich an der, der ersten Seite orientiert und ebenso dessen btt-Knopf übernommen.
+
+Seite 3:
+tabicon ist der einfache Tenta Missile sprite, der als Symbolik für Spezialwaffen verwendet wird.
+div class="top" -> siehe Seite 1.
+div class="text1" hatte sehr viel Text, sowie zwei Relevante Graphen, die ich einbinden konnte.
+Einerseits gab es kein gutes Video zu diesem Thema, andererseits habe ich es im Anbetracht der Textmenge und selbstverständlichkeit (uA. durch die Graphen), sowie der Interpretationsweite, als nicht als besonders nötig angesehen, eines einzufügen.
+Die Graphen waren aber schwer zu erkennen und deshalb habe ich sie click-bar gemacht. Um darauf hinzuweisen, habe ich den cursor zum klassischen zoom-in geändert und, weil ich es schön fande, auf alle Medien übertragen.
+Rechts in media eine collage aus mehreren Spezialwaffen, um eine visuelle Vorstellung derer zu haben und einen baller, dessen Bild einfach nur schön gemacht aussieht.
+Die Tabelle war an die aus index.html und sub.html angelehnt.
+während der Recherche stieß ich auf ungelistete videos von Nintendo, die ich in einer eigenen Spalte durch iframe einsetzen wollte, aber dies ging wohl auf irgendwelche Weisen schief (in jedem browser mit unterschiedlichem Ergebnis), weshalb ich nicht davon ausging, dass der Fehler im code lag. Aber um nicht so viele videos runterzuladen, entschied ich mich einfach dazu, es weg zu lassen.

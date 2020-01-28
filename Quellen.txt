@@ -1,0 +1,22 @@
+Referenz: 
+https://splatoonwiki.org/wiki/Weapon
+https://splatoonwiki.org/wiki/Sub_weapon
+https://splatoonwiki.org/wiki/Special_weapon
+sowie Unterseiten.
+Bildquellen der Waffensprites als datamine via leanny.github.io
+
+images\balleruse.jpg: https://splatoonwiki.org/wiki/File:BallerRoll.jpg
+images\herochar.png: https://splatoonwiki.org/wiki/File:Splatoon_2_Inkling_Boy_art_amiibo_page.png
+images\Salmon_gear.jpg: https://splatoonwiki.org/wiki/File:S2_Salmon_Run_6.JPG
+images\subweapondisplay.png: https://splatoonwiki.org/wiki/File:Sub-weapon_(1).png
+images\sheldonfstore.jpg: https://www.youtube.com/watch?v=VKN_ZIfz598 (Thumbnail)
+images\Sheldon.jpg: https://splatoonwiki.org/wiki/File:Sheldon_(Splatoon_2).png
+images\isscurve.png: https://splatoonwiki.org/wiki/File:Ink_Saver_Sub_Weapons.png
+images\:chargecurve.png: https://splatoonwiki.org/wiki/File:S2_Special_Charge_Up_Chart.png
+images\:savercurve.png: https://splatoonwiki.org/wiki/File:S2_Special_Saver_chart.png
+Das Splatton wiki besitzt keine der Bilder, die sie bereitstellen, da sie gemeiner Besitz sind; somit für alle zugänglich.
+
+images\sheldonicon.png: https://pikdo.biz/p/mk_squid_2/2098712081072139104_11288370693
+images\specialusage.png: https://spl-med.xyz/specialweapon/
+images\Jiko_pfp.jpg: https://twitter.com/JikoSplatoon
+images\sorinsubs.mp4: https://www.youtube.com/watch?v=rIiDfxihcyw
